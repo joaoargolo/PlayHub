@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul li {
+  display: inline;
+  padding: 10px;
+}
+body {
+  background-image: linear-gradient(to bottom, #112e79, #101122);
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.degrade {
+  background-image: linear-gradient(to bottom, #112e79, #101122);
+}
+.caixa-topo {
+  background-color: #101122;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  box-sizing: content-box;
+}
+.barra-de-busca {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.play {
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-style: italic;
+}
+.hub {
+  color: #102c73;
+  margin-top: 10px;
+  font-size: 40px;
+  font-style: italic;
+}
+.sub-titulo {
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+  font-style: italic;
+  margin: 30px;
+}
+.atalho {
+  color: #fff;
+  font-size: 30px;
+  font-style: italic;
+  margin: 5px;
+}
+.container {
+  display: flex;
+  flex-basis: 600px;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  margin: 20px;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+  align-content: center;
+}
+.subtitulos-biblioteca {
+  display: flex;
+  padding: 10px;
+}
+.meusgames {
+  color: #fff;
+  font-size: 72px;
+  font-style: italic;
+  display: flex;
+  flex: content;
+  justify-content: center;
+  margin: 10px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.imagem-biblioteca {
+  display: flex;
+  margin: 20px;
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+}
+.container-carrinho1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 160px;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.caixa1 {
+  background-color: #101122;
+  height: 600px;
+  width: 480px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  align-items: center;
+}
+.imagem-carrinho {
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.texto-carrinho1 {
+  color: #fff;
+  font-size: 36px;
+  font-style: italic;
+  padding: 10px;
+}
+.texto-carrinho2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  padding: 10px;
+}
+.texto-carrinho3 {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+}
+.preço {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+}
+.caixa2 {
+  background-color: #101122;
+  height: 600px;
+  width: 480px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+.texto-carrinho4 {
+  color: #fff;
+  font-size: 36px;
+  font-style: italic;
+  padding: 10px;
+}
+.imagem-pagamento {
+  border-radius: 20px;
+  height: 500px;
+  width: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+}

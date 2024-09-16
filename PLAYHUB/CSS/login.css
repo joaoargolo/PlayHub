@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #112e79;
+}
+.caixa-topo-login {
+  background-color: #101122;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.play-login {
+  color: #fff;
+  font-size: 80px;
+  font-style: italic;
+}
+.hub-login {
+  color: #102c73;
+  font-size: 80px;
+  font-style: italic;
+}
+.container-login {
+  background-color: #fff;
+  color: #000;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.input-login {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.lembrar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.lembrar input {
+  margin-right: 5px;
+}
+button > a > b {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.botao-acessar {
+  background-color: #102c73;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.botao-acessar:hover {
+  background-color: #0e1f4c;
+}
+.texto-esqueci {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.divider {
+  margin: 20px 0;
+  text-align: center;
+}
+.redes-sociais {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.botao-rede {
+  background-color: #102c73;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+}
+.botao-rede:hover {
+  background-color: #0e1f4c;
+}
